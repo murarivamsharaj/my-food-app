@@ -76,6 +76,3 @@ export const clearCart = (draft: CartItem[]) => {
     draft.length = 0;
 
 };
-
-
-

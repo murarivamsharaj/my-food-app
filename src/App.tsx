@@ -21,7 +21,7 @@ import { HiOutlineUser } from "react-icons/hi";
 
 function App() {
 
-  let {cart} = useContext(CartContext);
+  const { cart } = useContext<any>(CartContext);
 
   return (
     <BrowserRouter>

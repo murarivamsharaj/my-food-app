@@ -1,6 +1,6 @@
 import { useContext, useState, createContext } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-const CartContext = createContext({ cart: [] as any[], clearCart: () => {} });
+import { CartContext } from "../ContextApi/CartContext";
 import "../Checkout.css";
 
 import {
